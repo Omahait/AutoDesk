@@ -8,7 +8,7 @@
 #>
 
 # Function to update Autodesk Desktop Connector
-function Update-DesktopConnector {
+function Update-AutoDeskDesktopConnector {
     param (
     )
     $InstallPath = "C:\Autodesk\"
@@ -119,6 +119,6 @@ exit 0
 }
  
 # Run Function
-Update-DesktopConnector
+Update-AutoDeskDesktopConnector
 
 # End of script
